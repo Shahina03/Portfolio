@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - SHAHINA THASNEEM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        /* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('me2.jpeg') no-repeat center center/cover;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Overlay effect */
+}
+body { background-color: rgb(227, 26, 127); } 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 10;
+}
+
+.hero-content h2 {
+    font-size: 30px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero-content p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #9991db;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 10%;
+    text-align: center;
+    block-size: 250%;
+div {
+  background-color: #d5f4e6;
+}
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 4px solid #c51a64;
+}
+
+.about-text {
+    max-width: 600px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.about-text span {
+    color: #6a5acd;
+}
+
+.about-text p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.about-text ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.about-text ul li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #e62676;
+}
+.Projects {
+    padding: 50px 20%;
+    text-align: center;
+    font: size 10px; 
+    div {
+  background-color: #d5f4e6;
+}
+}
+
+.Projects-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Internship {
+    padding: 50px 20%;
+    text-align: center;
+    font: size 10px; 
+    div {
+  background-color: #d5f4e6;
+}
+}
+.Internship-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.WorkExperience {
+    padding: 50px 20%;
+    text-align: center;
+    font: size 10px; 
+    div {
+  background-color: #d5f4e6;
+}
+}
+
+.WorkExperience-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    </style>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <nav>
+            <div class="logo">SHAHINA THASNEEM</div>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Internship">Internship</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Work Experience">Work Experience</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h2>Hello!</h2>
+            <h1>I Am SHAHINA THASNEEM</h1>
+            <p>To work in an environment which encourages <br>me to
+                succeed and grow professionally<br> where I can utilize my
+                skills and knowledge <br>appropriately. </p>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2 id="About"></h2>
+        <div class="about-content">
+            <img src="shahina.png" alt="SHAHINA THASNEEM">
+            <div class="about-text">
+                <h2>Hello, I Am <span>SHAHINA THASNEEM</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum posuere.</p>
+                <ul>
+                    <li><strong>Name:</strong> SHAHINA THASNEEM</li>
+                    <li><strong>Age:</strong> 22</li>
+                    <li><strong>Qualification:</strong>MCA</li>
+                    <li><strong>Address:</strong> KERALA, India</li>
+                    <li><strong>Phone:</strong> 7594034074</li>
+                    <li><strong>Email:</strong> shahinamalvm@gmail.com</li>
+                </ul>
+                <a href="Resume.pdf" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+   <!-- Project Section -->
+    
+    <section class="Projects">
+        <div>
+        <h2 id="Projects"></h2>
+        <div class="Projects-contents">
+            <div class="about-text">
+                <h2>ABOUT MY  <span>PROJECT</span></h2>
+                <p>I am done an project in android programming.Develop
+                    an app through this.The app name is Super-e-mart.The
+                    front-end is html and bach end is Java.<br>
+                    This app is based on purchasing app.
+                    This application also provides with
+                     digital advertisements so that the
+                    customers can view the current offers
+                     in that Supermarket.<br><br><br>
+                     
+                     This application have 4 modules.Tracking,Login feedback like
+                     many features includes here
+                     And also have Admin side,client side and customer side.<br><br><br>
+                    
+                    </div></section>
+
+    <!-- Internship Section -->
+    
+    <section class="Internship">
+        <h2 id="Internship"></h2>
+        <div class="Internship contents">
+            <div class="about-text">
+                <h2>ABOUT MY  <span>Internship</span></h2>
+                <p>ERP ODOO Project, Coimbatore, India
+                    Completed the Odoo Requirement Gathering 
+                    Phase- ERP Implementation for a Dubai based Optical 
+                    showroom.<br><br><br><br>
+                    During the internship demonstrated a strong 
+                    understanding of the Odoo ERP system and its modules. 
+                    A part of efficiently gathering requirements from clients 
+                    and stakeholders, and document them in a clear and 
+                    concise manner. 
+                    <br><br><br>
+                </section>
+    <!-- Internship Section -->
+    
+    <section class="WorkExperience">
+        <h2 id="WorkExperience"></h2>
+        <div class="WorkExperience">
+            <div class="about-text">
+                <h2>ABOUT MY  <span>WorkExperience</span></h2>
+                <p>Digital marketing<br>   
+                    March 2022 -                 Current <br><br>
+                    Doing an part time job in Digital marketing. <br>
+                    Digital marketing refers to the use of digital channels,<br>
+                    platforms, and technologies to promote products, services,<br>
+                    or brands to a target audience. It leverages online strategies<br>
+                    to connect with potential customers,build brand awareness,<br>
+                    and drive sales or engagement.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
